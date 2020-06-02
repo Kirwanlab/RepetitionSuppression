@@ -16,7 +16,7 @@ for i in sub*; do
     cd $i
 
     #blur the functional dataset by 5mm
-    3dmerge -prefix rse1_blur5 -1blur_fwhm 5 -doall rse1+tlrc
+    3dmerge -prefix rse1_4_blur5 -1blur_fwhm 5 -doall rse1_4+tlrc
 
     cd $derDir
 done
